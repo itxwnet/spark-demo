@@ -22,14 +22,12 @@
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-core_2.11</artifactId>
             <version>${spark.version}</version>
-            <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-sql_2.11</artifactId>
             <version>${spark.version}</version>
-            <scope>provided</scope>
         </dependency>
 
         <dependency>
@@ -43,7 +41,6 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.6</version>
-            <scope>provided</scope>
         </dependency>
 
         <dependency>
@@ -52,6 +49,20 @@
             <version>4.14.1-HBase-1.4</version>
             <scope>provided</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.mongodb.spark</groupId>
+            <artifactId>mongo-spark-connector_2.11</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongo-java-driver</artifactId>
+            <version>3.8.0</version>
+        </dependency>
+
+
 
     </dependencies>
 
